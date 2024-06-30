@@ -29,6 +29,9 @@ jobs:
         name: hello.txt
     - name: print file
       run: |
-        cat /artifacts/hello.txt
+        #cat /artifacts/hello.txt
+        ls -ltr
+        pwd
+        
       
     
