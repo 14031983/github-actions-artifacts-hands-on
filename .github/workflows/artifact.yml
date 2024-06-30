@@ -23,7 +23,7 @@ jobs:
     needs: build
     steps:
     - name: Download artifacts
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v1
       with:
         path: ./artifacts
         name: hello.txt
